@@ -1,0 +1,99 @@
+* {
+    font-family: "Bangers", cursive;
+}
+
+body {
+    background-color: grey;
+    opacity: 90%;
+}
+
+/* how to I have this moved to the right? */
+header {
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: goldenrod;
+    border-bottom: 10px solid maroon;
+}
+
+.jnco-land {
+    color: darkblue;
+    text-align: center;
+}
+
+/* when I try to fix position the text-align goes left? */
+.nav-bar {
+    text-align: right;
+    list-style-type: none;
+}
+
+.nav-bar a {
+    color: maroon;
+    font-size: x-large;
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.h1 {
+    text-align: center;
+    color: goldenrod;
+    background-color: darkblue;
+    font-size: xx-large;
+}
+
+/* can I create a second border around this picture? */
+.jnco img {
+    padding: 10px maroon;
+}
+
+.jnco-kids {
+    border: 10px solid maroon;
+}
+
+figure {
+    text-align: center;
+    position: relative;
+    height: 50;
+    border: 10px darkblue;
+}
+
+p {
+    text-align: center;
+}
+
+.bottom {
+    height: 200px;
+    background-color: goldenrod;
+    border-top: 10px solid maroon;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    margin: 5px;
+    border-radius: 15%;
+    width: 200px;
+}
+
+/* how do I align this button a little to the right? */
+#submit-button {
+    position: relative;
+    right: 5px;
+}
+
+/* need to figure out how to center text */
+footer {
+    height: 300px;
+    text-align: center;
+}
